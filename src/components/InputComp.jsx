@@ -37,12 +37,13 @@ const InputComp = ({ userState,setUserState }) => {
 
         <form className='form' action='/login'  onSubmit={handleSubmit(onSubmit)}>
                 <Box>
-                <TextField fullWidth  label="userName" variant="outlined" type='text'  {...register('userName', { required: 'userName is required'  })} onKeyDown={checkEnter} error={!!errors.userName} helperText={errors.userName?.message}/>
+                <TextField fullWidth  label="UserName" variant="outlined" type='text'  {...register('userName', { required: 'userName is required'  })} onKeyDown={checkEnter} error={!!errors.userName} helperText={errors.userName?.message}/>
                 </Box>
 
                 <Box>
-                <TextField fullWidth label="Email-Id" variant="outlined" type="email" {...register('userEmail', {
-                    required: {
+                <TextField fullWidth label="Email-Id" variant="outlined"  {...register('userEmail', {
+                    required:'Email is required',
+                    pattern: {
                         value: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
                         message: 'Invalid E-mail Format'
                     }
