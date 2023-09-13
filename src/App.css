@@ -1,4 +1,38 @@
-.signUpBox{
+.login{
+    color: #04c582;
+    text-decoration: none;
+}
+.form {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+}
+.header p{
+    font-size: 30px;
+}
+.link{
+    color: #2196f3;
+}
+.link:hover{
+    text-decoration: none;
+    color: #1769aa;
+}
+.signup{
+    border-bottom: 1px solid #2196f3;
+}
+.login{
+    border-bottom: 1px solid #2196f3;
+}
+
+
+
+
+
+
+
+
+
+/* .signUpBox{
     background-color: #2e3137;
     width: 380px;
     height: 550px;
@@ -32,17 +66,17 @@
 
 
 
-.inputDiv{
+.inputDiv form{
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
-.inputDiv label{
+.inputDiv form label{
     color: #545d6a;
     font-size: 14px;
     margin-bottom: 0px;
 }
-.inputDiv input{
+.inputDiv form input{
     background-color: #545d6a;
     padding: 12px;
     border-radius: 10px;
@@ -54,7 +88,7 @@
 input:hover,a:hover{
     cursor: pointer;
 }
-.inputDiv div{
+.inputDiv form div{
     min-height: 25px;
     font-size: 15px;
     color: red;
@@ -198,9 +232,9 @@ span:hover{
         height: 300px;
         padding: 10px 30px;
         gap: 5px;
-    }
+    }n
     .loginPassEye,.loginFocus {
         top: 161px;
         right: 42px;
     }
-}
+} */

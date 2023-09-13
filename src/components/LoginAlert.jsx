@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../App.css'
 import { Button, Modal } from "react-bootstrap";
+import React from 'react';
 
 
 function LoginAlert(props) {
