@@ -7,6 +7,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@floating-ui/utils": "^0.1.2",
+    "@fontsource/roboto": "^5.0.8",
     "@mui/icons-material": "^5.14.8",
     "@mui/material": "^5.14.8",
     "@mui/styled-engine": "^5.14.8",

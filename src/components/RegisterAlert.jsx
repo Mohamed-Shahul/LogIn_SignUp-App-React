@@ -19,7 +19,7 @@ function RegisterAlert(props) {
       <Modal.Body id='modalBody'>
         <p className='text-center text-success font-weight-bold h3'>
          Registered Successfully
-        </p>
+        </p> 
       </Modal.Body>
       <Modal.Footer id='modalFooter'>
       <Link to='/login'> <Button onClick={props.onHide}>Go To LogIn Page</Button></Link>
